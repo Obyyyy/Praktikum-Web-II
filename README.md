@@ -1,2 +1,1 @@
-# Nama  : Muhammad Qalby
-NIM     : 2110817210001
+# Nama : Muhammad Qalby  NIM : 2110817210001
