@@ -48,8 +48,6 @@
                 echo $nama2."<br>";
                 echo $nama1."<br>";
             }
-        }else{
-            echo "s";
         }
     ?>
 </body>
