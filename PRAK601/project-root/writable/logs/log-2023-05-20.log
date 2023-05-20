@@ -1,0 +1,56 @@
+CRITICAL - 2023-05-20 09:06:03 --> Invalid file: "profil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('profil', [], true)
+ 3 APPPATH\Controllers\Pages.php(15): view('profil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->profil()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\APPS\\XAMPP\\project-root\\public\\index.php')
+CRITICAL - 2023-05-20 09:06:46 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Pages.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\APPS\\XAMPP\\project-root\\public\\index.php')
+CRITICAL - 2023-05-20 09:47:31 --> Undefined variable $title
+in APPPATH\Views\layout\header.php on line 7.
+ 1 APPPATH\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'D:\\APPS\\XAMPP\\project-root\\app\\Views\\layout\\header.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\APPS\\XAMPP\\project-root\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('layout/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->profil()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\APPS\\XAMPP\\project-root\\public\\index.php')
+CRITICAL - 2023-05-20 10:53:40 --> Undefined variable $nama
+in APPPATH\Views\pages\home.php on line 7.
+ 1 APPPATH\Views\pages\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\APPS\\XAMPP\\project-root\\app\\Views\\pages\\home.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\APPS\\XAMPP\\project-root\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [...], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('pages/home', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\APPS\\XAMPP\\project-root\\public\\index.php')
+CRITICAL - 2023-05-20 10:53:47 --> Undefined variable $nama
+in APPPATH\Views\pages\home.php on line 7.
+ 1 APPPATH\Views\pages\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'D:\\APPS\\XAMPP\\project-root\\app\\Views\\pages\\home.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\APPS\\XAMPP\\project-root\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/home', [...], true)
+ 5 APPPATH\Controllers\Pages.php(18): view('pages/home', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\APPS\\XAMPP\\project-root\\public\\index.php')
